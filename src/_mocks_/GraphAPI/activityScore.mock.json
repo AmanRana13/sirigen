@@ -1,0 +1,20 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": {
+            "1680633000000000000": {
+                "activity_score": 51901
+            }
+        },
+        "rolling_data": {
+            "activity_score": 46799,
+            "time": 1680048000000000000
+        },
+        "target_score": 23218,
+        "goal_percentage": 59.53570505642174
+    },
+    "message": "Activity Score fetched successfully",
+    "error": false
+}

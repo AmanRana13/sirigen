@@ -1,0 +1,22 @@
+{
+    "application_code": 200,
+    "data": [
+        {
+            "provider_id": "8e8ebb03cf06458f913e11f4a262073f",
+            "name": {
+                "first_name": "Marcus",
+                "last_name": "Welby",
+                "middle_name": null
+            },
+            "provider_name": "Sutter Medical Group",
+            "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+            "speciality": "Geriatric",
+            "contact_phone": "9999999999",
+            "email_address": "drmarcuswelby@smg.ca.com",
+            "created_date": "2022-09-21T09:07:35.513484+00:00",
+            "last_modified_by": "careagent-e396f2ea5748492bb53333aa85a65d9d"
+        }
+    ],
+    "message": "Doctors Retrieved Successfully",
+    "error": false
+}

@@ -1,0 +1,14 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-1",
+        "account_id": "acc-1",
+        "data": {
+            "1688099217000000000": {
+                "target_score": 45000
+            }
+        }
+    },
+    "message": "Activity Goal fetched successfully",
+    "error": false
+}

@@ -1,0 +1,318 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "caregivers": [
+            {
+                "caregiver_id": "caregiver-2f5b3b84bc4e428ea71ddd6292aeeb83",
+                "basic_info": {
+                    "created_date": "2022-11-30T17:02:44.487430+00:00",
+                    "name": {
+                        "first_name": "Tester1",
+                        "last_name": "Testing",
+                        "middle_name": null
+                    },
+                    "mobile_number": "9163337777",
+                    "gender": "Female",
+                    "email": "fakeemailaddress2022@nomail.com",
+                    "location": {
+                        "state": "AR",
+                        "city": "Modesto",
+                        "street": "12345 Anywhere Ave",
+                        "zipcode": "94087",
+                        "timezone": "America/Los_Angeles",
+                        "radius": {
+                            "value": null,
+                            "radius_measurement": null
+                        },
+                        "coordinates": {
+                            "latitude": null,
+                            "longitude": null
+                        }
+                    },
+                    "alternate_number": "9167773333",
+                    "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+                    "otp_require": true
+                },
+                "senior_info": {
+                    "created_date": "2022-11-30T17:02:44.403992+00:00",
+                    "relationship_with_senior": "Brother",
+                    "contact_priority_sequence": null,
+                    "caregiver_type": "secondary",
+                    "has_power_of_attorney": false,
+                    "best_time_to_contact": "Anytime",
+                    "best_day_to_contact": "Anyday",
+                    "is_living_with_senior": false,
+                    "emergency_contact": true,
+                    "alternate_number": "9167773333"
+                }
+            },
+            {
+                "caregiver_id": "caregiver-4c08f614753c4bdd8eaa42dd114b64e3",
+                "basic_info": {
+                    "created_date": "2023-01-26T10:41:22.947198+00:00",
+                    "name": {
+                        "first_name": "ahsan",
+                        "last_name": "khan",
+                        "middle_name": null
+                    },
+                    "mobile_number": "1123123123",
+                    "gender": "Male",
+                    "email": "ahsankhanbscs01@gmail.com",
+                    "location": {
+                        "state": "CA",
+                        "city": "California",
+                        "street": "1211",
+                        "zipcode": "90001",
+                        "timezone": "America/Los_Angeles",
+                        "radius": {
+                            "value": null,
+                            "radius_measurement": null
+                        },
+                        "coordinates": {
+                            "latitude": null,
+                            "longitude": null
+                        }
+                    },
+                    "alternate_number": null,
+                    "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+                    "otp_require": false
+                },
+                "senior_info": {
+                    "created_date": "2023-01-26T10:41:22.947151+00:00",
+                    "relationship_with_senior": "Uncle",
+                    "contact_priority_sequence": null,
+                    "caregiver_type": "secondary",
+                    "has_power_of_attorney": false,
+                    "best_time_to_contact": null,
+                    "best_day_to_contact": null,
+                    "is_living_with_senior": false,
+                    "emergency_contact": false,
+                    "alternate_number": null
+                }
+            },
+            {
+                "caregiver_id": "caregiver-4ed3392c77484a9db4849bb97fb86f39",
+                "basic_info": {
+                    "created_date": "2023-03-07T07:17:46.278739+00:00",
+                    "name": {
+                        "first_name": "Vishal",
+                        "last_name": "Grover",
+                        "middle_name": null
+                    },
+                    "mobile_number": "6750919911",
+                    "gender": "Male",
+                    "email": "jeff.barbieri@clearcaptions.com",
+                    "location": {
+                        "state": "CA",
+                        "city": "CA",
+                        "street": "123",
+                        "zipcode": "12345",
+                        "timezone": "America/New_York",
+                        "radius": {
+                            "value": null,
+                            "radius_measurement": null
+                        },
+                        "coordinates": {
+                            "latitude": null,
+                            "longitude": null
+                        }
+                    },
+                    "alternate_number": null,
+                    "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+                    "otp_require": false
+                },
+                "senior_info": {
+                    "created_date": "2023-03-07T07:17:46.278696+00:00",
+                    "relationship_with_senior": "Aunt",
+                    "contact_priority_sequence": null,
+                    "caregiver_type": "secondary",
+                    "has_power_of_attorney": false,
+                    "best_time_to_contact": null,
+                    "best_day_to_contact": null,
+                    "is_living_with_senior": false,
+                    "emergency_contact": false,
+                    "alternate_number": null
+                }
+            },
+            {
+                "caregiver_id": "caregiver-5b1123294471450f95d81e097f53ddbb",
+                "basic_info": {
+                    "created_date": "2023-03-09T06:17:16.811246+00:00",
+                    "name": {
+                        "first_name": "Tannu",
+                        "last_name": "Ahuja",
+                        "middle_name": null
+                    },
+                    "mobile_number": "9911664997",
+                    "gender": "Female",
+                    "email": "tannu.ahuja+12june@srijan.net",
+                    "location": {
+                        "state": "CA",
+                        "city": "California",
+                        "street": "359 Swift Trail",
+                        "zipcode": "90001",
+                        "timezone": "America/Los_Angeles",
+                        "radius": {
+                            "value": null,
+                            "radius_measurement": null
+                        },
+                        "coordinates": {
+                            "latitude": null,
+                            "longitude": null
+                        }
+                    },
+                    "alternate_number": null,
+                    "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+                    "otp_require": false
+                },
+                "senior_info": {
+                    "created_date": "2023-03-09T06:17:16.811201+00:00",
+                    "relationship_with_senior": "Niece",
+                    "contact_priority_sequence": null,
+                    "caregiver_type": "primary",
+                    "has_power_of_attorney": false,
+                    "best_time_to_contact": "Anytime",
+                    "best_day_to_contact": "Anyday",
+                    "is_living_with_senior": false,
+                    "emergency_contact": false,
+                    "alternate_number": null
+                }
+            },
+            {
+                "caregiver_id": "caregiver-af8668898b6044bdb6b7ce4acee3e18a",
+                "basic_info": {
+                    "created_date": "2022-04-04T20:26:14.270026+00:00",
+                    "name": {
+                        "first_name": "Dustin",
+                        "last_name": "Armitage ",
+                        "middle_name": null
+                    },
+                    "mobile_number": "7817383224",
+                    "gender": "Male",
+                    "email": "ljlrdf@comcast.net",
+                    "location": {
+                        "state": "MA",
+                        "city": "Brookline",
+                        "street": "110 Main Street",
+                        "zipcode": "02445",
+                        "timezone": "America/New_York",
+                        "radius": {
+                            "value": null,
+                            "radius_measurement": null
+                        },
+                        "coordinates": {
+                            "latitude": null,
+                            "longitude": null
+                        }
+                    },
+                    "alternate_number": "3333333333",
+                    "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+                    "otp_require": false
+                },
+                "senior_info": {
+                    "created_date": "2022-04-04T20:26:14.187702+00:00",
+                    "relationship_with_senior": "Son",
+                    "contact_priority_sequence": 1,
+                    "caregiver_type": "secondary",
+                    "has_power_of_attorney": false,
+                    "best_time_to_contact": null,
+                    "best_day_to_contact": null,
+                    "is_living_with_senior": false,
+                    "emergency_contact": false,
+                    "alternate_number": "3333333333"
+                }
+            },
+            {
+                "caregiver_id": "caregiver-c6084ab770c348ebabf4e4d04c760c8a",
+                "basic_info": {
+                    "created_date": "2023-03-14T05:16:56.095055+00:00",
+                    "name": {
+                        "first_name": "Tanvi",
+                        "last_name": "Breitenberg",
+                        "middle_name": null
+                    },
+                    "mobile_number": "8569808151",
+                    "gender": "Female",
+                    "email": "tannu.ahuja+13june@srijan.net",
+                    "location": {
+                        "state": "CA",
+                        "city": "California",
+                        "street": "368 Spencer Mountain",
+                        "zipcode": "90001",
+                        "timezone": "America/Los_Angeles",
+                        "radius": {
+                            "value": null,
+                            "radius_measurement": null
+                        },
+                        "coordinates": {
+                            "latitude": null,
+                            "longitude": null
+                        }
+                    },
+                    "alternate_number": null,
+                    "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+                    "otp_require": true
+                },
+                "senior_info": {
+                    "created_date": "2023-03-14T05:16:56.095012+00:00",
+                    "relationship_with_senior": "Nephew",
+                    "contact_priority_sequence": null,
+                    "caregiver_type": "secondary",
+                    "has_power_of_attorney": false,
+                    "best_time_to_contact": "Before 12 Noon",
+                    "best_day_to_contact": "Weekday Only",
+                    "is_living_with_senior": false,
+                    "emergency_contact": false,
+                    "alternate_number": null
+                }
+            },
+            {
+                "caregiver_id": "caregiver-df7d9a82c5a5498ba269cd0ac410fb21",
+                "basic_info": {
+                    "created_date": "2022-02-14T21:44:54.759579+00:00",
+                    "name": {
+                        "first_name": "Melissa ",
+                        "last_name": "Rose",
+                        "middle_name": null
+                    },
+                    "mobile_number": "9097292923",
+                    "gender": "Female",
+                    "email": "melissa.rose@vimient.com",
+                    "location": {
+                        "state": "IL",
+                        "city": " Chicago",
+                        "street": " 110 Main Street",
+                        "zipcode": "60640",
+                        "timezone": "America/Chicago",
+                        "radius": {
+                            "value": null,
+                            "radius_measurement": null
+                        },
+                        "coordinates": {
+                            "latitude": null,
+                            "longitude": null
+                        }
+                    },
+                    "alternate_number": "5555555555",
+                    "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+                    "otp_require": true
+                },
+                "senior_info": {
+                    "created_date": "2022-02-14T21:44:54.741159+00:00",
+                    "relationship_with_senior": "Friend",
+                    "contact_priority_sequence": 3,
+                    "caregiver_type": "secondary",
+                    "has_power_of_attorney": false,
+                    "best_time_to_contact": "Anytime",
+                    "best_day_to_contact": "Anyday",
+                    "is_living_with_senior": false,
+                    "emergency_contact": false,
+                    "alternate_number": "5555555555"
+                }
+            }
+        ]
+    },
+    "message": "Ok",
+    "error": false
+}

@@ -1,0 +1,54 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": {
+            "1680601600000000000": {
+                "summary": [
+                    {
+                        "time": 1680650860000000000,
+                        "total_timeinbed": 29460,
+                        "total_sleep_time": 27900,
+                        "sleep_latency": 1560,
+                        "interruptions": 0,
+                        "time_to_get_up": 0,
+                        "hr_average": 65,
+                        "sleep_score": 93,
+                        "end_timestamp": 1680680320000000000,
+                        "senior_day": 1680601600000000000,
+                        "timezone": "America/New_York",
+                        "is_night_sleep": true,
+                        "wakeupduration": 1560
+                    }
+                ],
+                "detail": {
+                    "sleep_score": 93,
+                    "total_timeinbed": 29460,
+                    "total_sleep_time": 27900,
+                    "interruptions": 0,
+                    "time_to_get_up": 0,
+                    "wakeupduration": 1560,
+                    "sleep_latency": 1560,
+                    "summary_cycle": [
+                        {
+                            "start_time": 1680650860000000000,
+                            "end_time": 1680680320000000000
+                        }
+                    ]
+                }
+            },
+            "average_sleep_score": 93,
+            "average_total_timeinbed": 29460,
+            "average_total_sleep_time": 27900,
+            "average_hr": 65,
+            "sleep_latency": 1560
+        },
+        "rolling_data": {
+            "sleep_score": 60.42857142857143,
+            "time": 1653782400000000000
+        }
+    },
+    "message": "Sleep depth fetched successfully",
+    "error": false
+}

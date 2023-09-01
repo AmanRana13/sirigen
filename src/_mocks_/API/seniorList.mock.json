@@ -1,0 +1,30 @@
+{
+    "application_code": 200,
+    "data": {
+        "ids": [
+            {
+                "account_id": "ac3ac79a8bce4d22b66138870f847add",
+                "user_id": "senior-e59c47359cf04a099cfdc6bb74ad0e0d"
+            },
+            {
+                "account_id": "bc66b758376045d98dd881c7695f68da",
+                "user_id": "senior-01d4b5025c954ce4a63d85871631d403"
+            },
+            {
+                "account_id": "7a97969b5658469b807c8b2797ec62ee",
+                "user_id": "senior-11cca3e1a63e4c7589e9b18ea96f37b3"
+            },
+            {
+                "account_id": "70cdf821fd1e47ffa7a23aea9735d147",
+                "user_id": "senior-2b24e2b2c6724a52841f9a494d246fef"
+            },
+            {
+                "account_id": "5e60f902b5414191b781fa47997a5337",
+                "user_id": "senior-d8e72f7878a145a9b93bcb7411117593"
+            }
+        ],
+        "LastEvaluatedKey": null
+    },
+    "message": "Senior Ids retrieved successfully",
+    "error": false
+}

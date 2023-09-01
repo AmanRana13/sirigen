@@ -1,0 +1,29 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-d92b22d563b64dc4afda31d6db177ce7",
+        "account_id": "2859a5cf439e4a30be6d9ce511234d2e",
+        "data": [
+            {
+                "time": 1661874463000000000,
+                "status_message": "fall",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1661876424000000000
+            },
+            {
+                "time": 1661883105000000000,
+                "status_message": "fall",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1661883122000000000
+            },
+            {
+                "time": 1661964119000000000,
+                "status_message": "fall",
+                "location_based_on_beacon": "away",
+                "event_timestamp": 1661964182000000000
+            }
+        ]
+    },
+    "message": "Fall Detection fetch successfully",
+    "error": false
+}

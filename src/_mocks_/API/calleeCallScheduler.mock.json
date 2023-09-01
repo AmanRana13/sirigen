@@ -1,0 +1,28 @@
+{
+    "application_code": 200,
+    "data": [
+        {
+            "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+            "call_id": "fa8c708eb5ab441e965c8e738ef1f191",
+            "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+            "callee_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+            "careagent_id": "careagent-216d1a302c4b4060aa9101a9c8547a5b",
+            "start_time": "2023-01-02T04:24:12+05:30",
+            "duration": 0,
+            "call_reason": "",
+            "call_type": "Fall Detection",
+            "call_status": "completed",
+            "call_priority": "high",
+            "callee_type": "senior",
+            "call_direction": "outbound",
+            "call_time": "2023-01-06T14:57:06+05:30",
+            "start_time_zone": "+05:30",
+            "call_time_zone": "+05:30",
+            "created_date": "2023-01-06T09:27:07.072672+00:00",
+            "modification_date": "2023-04-07T13:51:27.405975+00:00",
+            "disposition": "false_alarm"
+        }
+    ],
+    "message": "Calls Fetched Successfully",
+    "error": false
+}

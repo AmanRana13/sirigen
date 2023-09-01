@@ -1,0 +1,80 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": {
+            "all_data": {
+                "1680546600000000000": {
+                    "raw": {
+                        "weight": 84.55,
+                        "bmi": 26,
+                        "hydration": 43.5,
+                        "bone_mass": 3.14,
+                        "muscle_mass": 59.68,
+                        "fat_mass": 21.72
+                    },
+                    "raw_unit": "kg",
+                    "percentage": {
+                        "bone_mass": 3.71377882909521,
+                        "fat_mass": 25.688941454760496,
+                        "hydration": 51.448846836191606,
+                        "muscle_mass": 70.58545239503252
+                    }
+                }
+            },
+            "extremities": {
+                "percentage": {
+                    "min_bone_mass": 3.71377882909521,
+                    "max_bone_mass": 3.71377882909521,
+                    "average_bone_mass": 3.71377882909521,
+                    "min_fat_mass": 25.688941454760496,
+                    "max_fat_mass": 25.688941454760496,
+                    "average_fat_mass": 25.688941454760496,
+                    "min_hydration": 51.448846836191606,
+                    "max_hydration": 51.448846836191606,
+                    "average_hydration": 51.448846836191606,
+                    "min_muscle_mass": 70.58545239503252,
+                    "max_muscle_mass": 70.58545239503252,
+                    "average_muscle_mass": 70.58545239503252
+                },
+                "raw_data": {
+                    "min_weight": 84.55,
+                    "max_weight": 84.55,
+                    "average_weight": 84.55,
+                    "min_bmi": 26,
+                    "max_bmi": 26,
+                    "average_bmi": 26,
+                    "min_bone_mass": 3.14,
+                    "max_bone_mass": 3.14,
+                    "average_bone_mass": 3.14,
+                    "min_fat_mass": 21.72,
+                    "max_fat_mass": 21.72,
+                    "average_fat_mass": 21.72,
+                    "min_hydration": 43.5,
+                    "max_hydration": 43.5,
+                    "average_hydration": 43.5,
+                    "min_muscle_mass": 59.68,
+                    "max_muscle_mass": 59.68,
+                    "average_muscle_mass": 59.68
+                }
+            }
+        },
+        "rolling_data": {
+            "time": 1644537600000000000,
+            "weight": 87.10820952380952,
+            "bmi": 26.783970402280172,
+            "hydration": 45.66766666666667,
+            "bone_mass": 3.294777777777778,
+            "muscle_mass": 63.05433333333334,
+            "fat_mass": 20.541999999999998
+        },
+        "last": {
+            "time": 1680597206000000000,
+            "weight": 94.794
+        },
+        "last_recorded_timestamp": 1680597206000000000
+    },
+    "message": "Body Health vitals  fetched successfully",
+    "error": false
+}

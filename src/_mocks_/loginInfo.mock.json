@@ -1,0 +1,13 @@
+{
+    "email": "srijan-dev@srijan.net",
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6ImNhcmVhZ2VudCIsInNlbmlvcl9xdWVyeV9pbmZvIjp7fSwiaXNfc2VuaW9yIjpmYWxzZSwiaXNfcmVzZXRfbmVlZGVkIjpmYWxzZSwiaXNzIjoidmltaWVudC1hdXRoZW50aWNhdGlvbi1zZXJ2aWNlIiwiYXVkIjoidmltaWVudC1wb3J0YWwiLCJqd3RfdmVyc2lvbiI6IjIiLCJ1c2VyX2lkIjoiY2FyZWFnZW50LTkyOWViNWQ5OWZhMjRlZWFiZTJiNGIyZmRkZWRlNWY5IiwicHJpbWFyeV9jYXJlZ2l2ZXIiOltdLCJzZWNvbmRhcnlfY2FyZWdpdmVyIjpbXSwiZXhwIjoxNjQ1MTY4NjM0LCJpYXQiOjE2NDUxNTc4MzR9.9MILTfLcXryrwtu0t8RVNa8zktAHuOq6qascT_mqBpQ",
+    "refreshToken": "5db7f1ccf33646e6894ef4121479cd16cf75ab4b1f13487eae49d1cec03d303a$9XS7UM6THUZ49M5OJS7X4H",
+    "userName": {
+        "middle_name": "Dev", 
+        "first_name": "Srijan", 
+        "last_name": "Team"
+    },
+    "userId": "careagent-929eb5d99fa24eeabe2b4b2fddede5f9"
+  }
+
+  

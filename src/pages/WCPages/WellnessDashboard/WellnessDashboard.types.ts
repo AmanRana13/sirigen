@@ -1,0 +1,4 @@
+export const SET_CURRENT_STATE = 'SET_CURRENT_STATE';
+export const SET_START_END_TIME = 'SET_START_END_TIME';
+export const RE_RENDER_GRAPH = 'RE_RENDER_GRAPH';
+

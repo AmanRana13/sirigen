@@ -1,0 +1,25 @@
+const MOCK_URL_REGEX = {
+  careInsight: /careinsights\/care-insight\/?.*/,
+  calleeCallScheduler: /supervision\/callee-call-scheduler\/?.*/,
+  medicalCondition: /users\/medical-condition\/?.*/,
+  medicalHistory: /users\/medical-history\/?.*/,
+  medicalDevice: /users\/medical-device\/?.*/,
+  wellnessSurvey: /supervision\/wellness-survey\/fetch\/?.*/,
+  doctor: /users\/provider\/doctor\/?.*/,
+  dentist: /users\/provider\/dentist\/?.*/,
+  minimalInfo: /users\/senior\/minimal-info\/?.*/,
+  basicInfo: /users\/senior\/basic-info\/?.*/,
+  careCircle: /users\/senior\/care-circle\/?.*/,
+  image: /users\/senior\/image\/?.*/,
+  downloadImage: /users\/senior\/download-image\/?.*/,
+  careagentList: /users\/query\/caragent-list\/?.*/,
+  seniorList: /users\/senior\/list\/?.*/,
+  seniorMapping: /users\/query\/senior-info\/?.*/,
+  multipleImages: /users\/senior\/multiple-images\/?.*/,
+  assessmentStatusUser: /users\/assessment-tags\/?.*/,
+  assessmentStatusSuper: /supervision\/assessment-tags\/?.*/,
+  sos: /measurement\/alarm\/sos\/?.*/,
+  fall: /measurement\/alarm\/fall-detect\/?.*/,
+};
+
+export default MOCK_URL_REGEX;

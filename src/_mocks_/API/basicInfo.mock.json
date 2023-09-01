@@ -1,0 +1,45 @@
+{
+    "application_code": 200,
+    "data": {
+        "user_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "height": {
+            "feet": "5.0",
+            "inch": "1.0"
+        },
+        "weight": "129.0",
+        "academic_level": "Some College No Degree",
+        "career": "RN",
+        "primary_spoken_language": "English",
+        "other_spoken_language": "Kannada, Konkani",
+        "radius": {
+            "value": "700.0",
+            "radius_measurement": "feet"
+        },
+        "preferred_name": "Laura ",
+        "home_phone": "7817383224",
+        "emergency_phone": "5082225555",
+        "email": null,
+        "faith": "Protestant",
+        "other_faith": null,
+        "home_technology": "Home internet, computer, cell phone, ipad ",
+        "home_gate_code": null,
+        "race": null,
+        "other_race": "American ",
+        "pets": [
+            "Dogs",
+            "Cats",
+            "Birds",
+            "Others"
+        ],
+        "other_pets": "Zebra,Fish,Alligator",
+        "social_media_links": [
+            null
+        ],
+        "life_event": null,
+        "lock_box_code": null,
+        "created_date": "2022-02-14T21:31:48.813008+00:00",
+        "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5"
+    },
+    "message": "Basic Info Retrieved Successfully",
+    "error": false
+}

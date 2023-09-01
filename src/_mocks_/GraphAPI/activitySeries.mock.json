@@ -1,0 +1,155 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": {
+            "1680634800000000000": {
+                "activity_duration": 3600,
+                "high_activity": 5,
+                "medium_activity": 28,
+                "no_activity": 67
+            },
+            "1680638400000000000": {
+                "activity_duration": 3600,
+                "high_activity": 60,
+                "medium_activity": 23,
+                "no_activity": 17
+            },
+            "1680642000000000000": {
+                "activity_duration": 3600,
+                "high_activity": 23,
+                "medium_activity": 29,
+                "no_activity": 48
+            },
+            "1680645600000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 14,
+                "no_activity": 86
+            },
+            "1680649200000000000": {
+                "activity_duration": 3600,
+                "high_activity": 40,
+                "medium_activity": 32,
+                "no_activity": 28
+            },
+            "1680652800000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 18,
+                "no_activity": 82
+            },
+            "1680656400000000000": {
+                "activity_duration": 3600,
+                "high_activity": 8,
+                "medium_activity": 9,
+                "no_activity": 83
+            },
+            "1680660000000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680663600000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680667200000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680670800000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680674400000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680678000000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680681600000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680685200000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680688800000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680692400000000000": {
+                "activity_duration": 3600,
+                "high_activity": 0,
+                "medium_activity": 0,
+                "no_activity": 100
+            },
+            "1680696000000000000": {
+                "activity_duration": 3600,
+                "high_activity": 23,
+                "medium_activity": 17,
+                "no_activity": 60
+            },
+            "1680699600000000000": {
+                "activity_duration": 3600,
+                "high_activity": 16,
+                "medium_activity": 30,
+                "no_activity": 54
+            },
+            "1680703200000000000": {
+                "activity_duration": 3600,
+                "high_activity": 9,
+                "medium_activity": 23,
+                "no_activity": 68
+            },
+            "1680706800000000000": {
+                "activity_duration": 3600,
+                "high_activity": 21,
+                "medium_activity": 30,
+                "no_activity": 49
+            },
+            "1680710400000000000": {
+                "activity_duration": 3600,
+                "high_activity": 3,
+                "medium_activity": 24,
+                "no_activity": 73
+            },
+            "1680714000000000000": {
+                "activity_duration": 3600,
+                "high_activity": 6,
+                "medium_activity": 35,
+                "no_activity": 59
+            },
+            "1680717600000000000": {
+                "activity_duration": 3600,
+                "high_activity": 21,
+                "medium_activity": 33,
+                "no_activity": 46
+            }
+        }
+    },
+    "message": "Activity Data fetched successfully",
+    "error": false
+}

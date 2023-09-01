@@ -1,0 +1,11 @@
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6ImNhcmVhZ2VudCIsInNlbmlvcl9xdWVyeV9pbmZvIjp7fSwiaXNfc2VuaW9yIjpmYWxzZSwic2Vjb25kYXJ5X3JvbGUiOltdLCJpc19yZXNldF9uZWVkZWQiOmZhbHNlLCJpc19maXJzdF9sb2dpbiI6ZmFsc2UsImlzcyI6InZpbWllbnQtYXV0aGVudGljYXRpb24tc2VydmljZSIsImF1ZCI6InZpbWllbnQtcG9ydGFsIiwiand0X3ZlcnNpb24iOiIyIiwidXNlcl9pZCI6ImNhcmVhZ2VudC05MjllYjVkOTlmYTI0ZWVhYmUyYjRiMmZkZGVkZTVmOSIsInByaW1hcnlfY2FyZWdpdmVyIjpbXSwic2Vjb25kYXJ5X2NhcmVnaXZlciI6W10sImV4cCI6MTY1NDU4NzIxMCwiaWF0IjoxNjU0NTc2NDEwfQ.minM_WuiJzwuMPmD1zmqMv8lHSPJ3N4uV7RByZ8sgbw",
+"email": "srijan-dev@srijan.net",
+"refreshToken": "f88e52914f7a4909a86a642551437dbc071042bed511447f9b2203b31d16dec5$02HOW5AH3HO93DPUZQ9Z80HZ",
+"userId": "careagent-929eb5d99fa24eeabe2b4b2fddede5f9",
+"userName":{
+"first_name": "Srijan",
+"last_name": "Team",
+"middle_name": "Dev"},
+"userRole": "careagent"
+}

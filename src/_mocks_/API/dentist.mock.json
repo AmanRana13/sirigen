@@ -1,0 +1,22 @@
+{
+    "application_code": 200,
+    "data": [
+        {
+            "provider_id": "553d146df2c74c8ca13a9e6f1f4f239d",
+            "name": {
+                "first_name": "John",
+                "last_name": "Cavity",
+                "middle_name": null
+            },
+            "provider_name": "Buck Tooth Dental",
+            "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+            "speciality": "General Dentistry",
+            "contact_phone": "4444444442",
+            "email_address": "invoryjawsmith293@wow.com",
+            "created_date": "2022-09-21T09:07:35.517181+00:00",
+            "last_modified_by": "careagent-e396f2ea5748492bb53333aa85a65d9d"
+        }
+    ],
+    "message": "Dentists Retrieved Successfully",
+    "error": false
+}

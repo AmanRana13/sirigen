@@ -1,0 +1,77 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-d92b22d563b64dc4afda31d6db177ce7",
+        "account_id": "2859a5cf439e4a30be6d9ce511234d2e",
+        "data": [
+            {
+                "time": 1659631361000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "away",
+                "event_timestamp": 1659631370000000000
+            },
+            {
+                "time": 1660741966000000000,
+                "status_message": "sos",
+                "location_based_on_beacon": "UNDEFINED",
+                "event_timestamp": 1660741969000000000
+            },
+            {
+                "time": 1661786957000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "away",
+                "event_timestamp": 1661787029000000000
+            },
+            {
+                "time": 1661873552000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1661873565000000000
+            },
+            {
+                "time": 1661880490000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "away",
+                "event_timestamp": 1661880505000000000
+            },
+            {
+                "time": 1661882258000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1661882632000000000
+            },
+            {
+                "time": 1661961718000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1661962332000000000
+            },
+            {
+                "time": 1661962215000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1661962332000000000
+            },
+            {
+                "time": 1661962457000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1661962466000000000
+            },
+            {
+                "time": 1661966917000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "away",
+                "event_timestamp": 1661967154000000000
+            },
+            {
+                "time": 1662045262000000000,
+                "status_message": "call_start",
+                "location_based_on_beacon": "home",
+                "event_timestamp": 1662047886000000000
+            }
+        ]
+    },
+    "message": "SOS records fetch successfully",
+    "error": false
+}

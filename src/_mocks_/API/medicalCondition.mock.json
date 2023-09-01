@@ -1,0 +1,35 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "medical_conditions": [
+            {
+                "condition": "Knee pain",
+                "severity_level": null,
+                "date_of_onset": null,
+                "notes": ""
+            },
+            {
+                "condition": "Headache",
+                "severity_level": null,
+                "date_of_onset": "1993-01-13T18:30:00+00:00",
+                "notes": ""
+            },
+            {
+                "condition": "Arthritis - septic",
+                "severity_level": "moderate",
+                "date_of_onset": "2023-04-02T18:30:00+00:00",
+                "notes": "Moderate"
+            }
+        ],
+        "status": "save",
+        "condition_id": "5907f9584e8b4f718ed65f7d567dcfc1",
+        "last_updated_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5",
+        "last_updated_by_name": "Tannu  Ahuja",
+        "version": 5,
+        "created_date": "2023-04-06T15:54:19.039875+00:00",
+        "modification_date": "2023-04-06T18:18:23.721726+00:00"
+    },
+    "message": "Latest Medical Condition Fetched successfully",
+    "error": false
+}

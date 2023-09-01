@@ -1,0 +1,165 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": [
+            {
+                "time": 1680633063000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 95,
+                "timezone": null
+            },
+            {
+                "time": 1680634863000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 96,
+                "timezone": null
+            },
+            {
+                "time": 1680636663000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 90,
+                "timezone": null
+            },
+            {
+                "time": 1680638463000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 98,
+                "timezone": null
+            },
+            {
+                "time": 1680640263000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 92,
+                "timezone": null
+            },
+            {
+                "time": 1680642023000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 92,
+                "timezone": null
+            },
+            {
+                "time": 1680645663000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 91,
+                "timezone": null
+            },
+            {
+                "time": 1680647403000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 99,
+                "timezone": null
+            },
+            {
+                "time": 1680649263000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 94,
+                "timezone": null
+            },
+            {
+                "time": 1680651048000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 99,
+                "timezone": null
+            },
+            {
+                "time": 1680652783000000000,
+                "event_timestamp": 1680652911000000000,
+                "respiration_rate": 94,
+                "timezone": null
+            },
+            {
+                "time": 1680654578000000000,
+                "event_timestamp": 1680658039000000000,
+                "respiration_rate": 93,
+                "timezone": null
+            },
+            {
+                "time": 1680656387000000000,
+                "event_timestamp": 1680658039000000000,
+                "respiration_rate": 99,
+                "timezone": null
+            },
+            {
+                "time": 1680698023000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 97,
+                "timezone": null
+            },
+            {
+                "time": 1680699798000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 91,
+                "timezone": null
+            },
+            {
+                "time": 1680701598000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 98,
+                "timezone": null
+            },
+            {
+                "time": 1680703398000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 95,
+                "timezone": null
+            },
+            {
+                "time": 1680705118000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 94,
+                "timezone": null
+            },
+            {
+                "time": 1680706998000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 96,
+                "timezone": null
+            },
+            {
+                "time": 1680708798000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 90,
+                "timezone": null
+            },
+            {
+                "time": 1680710598000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 91,
+                "timezone": null
+            },
+            {
+                "time": 1680712373000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 90,
+                "timezone": null
+            },
+            {
+                "time": 1680714198000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 92,
+                "timezone": null
+            },
+            {
+                "time": 1680715913000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 92,
+                "timezone": null
+            },
+            {
+                "time": 1680717798000000000,
+                "event_timestamp": 1680719456000000000,
+                "respiration_rate": 91,
+                "timezone": null
+            }
+        ],
+        "rolling_data": {
+            "respiration_rate": 97,
+            "time": 1680048000000000000
+        }
+    },
+    "message": "Respiration Rate fetched successfully",
+    "error": false
+}

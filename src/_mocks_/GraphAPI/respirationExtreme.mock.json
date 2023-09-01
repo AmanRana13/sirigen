@@ -1,0 +1,22 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": [
+            {
+                "time": 1680717798000000000,
+                "min": 88,
+                "max": 99,
+                "mean": 94,
+                "last": 97
+            }
+        ],
+        "rolling_data": {
+            "respiration_rate": 97,
+            "time": 1680048000000000000
+        }
+    },
+    "message": "Respiration Extreme fetched successfully",
+    "error": false
+}

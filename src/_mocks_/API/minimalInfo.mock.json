@@ -1,0 +1,35 @@
+{
+    "application_code": 200,
+    "data": {
+        "name": {
+            "first_name": "Laura ",
+            "last_name": "Ludwig",
+            "middle_name": ""
+        },
+        "mobile_number": "7817383224",
+        "gender": "Female",
+        "dob": "1955-12-24T08:00:00+00:00",
+        "user_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "created_date": "2022-02-14T21:21:49.375138+00:00",
+        "email": "laura.ludwig@vimient.com",
+        "address": {
+            "state": "MA",
+            "city": "Weston",
+            "street": "16 Forest Ridge Road",
+            "zipcode": "02493",
+            "timezone": "America/New_York",
+            "radius": {
+                "value": null,
+                "radius_measurement": null
+            },
+            "coordinates": {
+                "latitude": "42.3791213",
+                "longitude": "-71.2784887"
+            }
+        },
+        "full_name": "lauraludwig|ludwiglaura"
+    },
+    "message": "Senior Fetched Successfully",
+    "error": false
+}

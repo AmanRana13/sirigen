@@ -1,0 +1,39 @@
+{
+    "application_code": 200,
+    "data": {
+        "data": [
+            {
+                "name": "adl_brody_assessment",
+                "status": "complete",
+                "datetime": "2023-05-01T22:51:08.872380+00:00"
+            },
+            {
+                "name": "adl_katz_assessment",
+                "status": "due",
+                "datetime": null
+            },
+            {
+                "name": "caregiver_assessment",
+                "status": "due",
+                "datetime": null
+            },
+            {
+                "name": "holistic_assessment",
+                "status": "incomplete",
+                "datetime": "2023-05-01T22:07:17.273673"
+            },
+            {
+                "name": "wellness_survey",
+                "status": "due",
+                "datetime": null
+            },
+            {
+                "name": "medication_list",
+                "status": "incomplete",
+                "datetime": "2023-05-01T22:51:08.872380+00:00"
+            }
+        ]
+    },
+    "message": "Assessment Tags Fetched Successfully",
+    "error": false
+}

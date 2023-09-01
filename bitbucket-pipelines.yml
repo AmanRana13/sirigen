@@ -1,0 +1,119 @@
+image: 'python:3.9.1-alpine'
+definitions:
+  services:
+    docker:
+      memory: 7128
+  steps:
+    - step: &sonarqube-analysis
+        name: SonarQube analysis
+        size: 2x
+        script:
+          - pipe: sonarsource/sonarqube-scan:1.2.0
+            variables:
+              SONAR_HOST_URL: ${SONAR_HOST_URL}
+              SONAR_TOKEN: ${SONAR_TOKEN}
+
+    - step: &security-scan
+          name: Security Scan
+          size: 2x
+          script:
+            - pipe: 'atlassian/git-secrets-scan:0.4.3'
+
+pipelines:
+  branches:
+    master:
+      - step: *security-scan
+      - step: *sonarqube-analysis
+      - step:
+          name: image build and deploy to Dev Environment
+          size: 2x # Double resources available for this step.
+          deployment: Dev
+          services:
+            - docker
+          caches:
+            - pip
+          script:
+            - pip install awscli==1.19.26
+            - apk update && apk add git
+            - IMAGE="${IMAGE_URI}/${IMAGE_NAME}"
+            - VERSION="${BASE_IMAGE_TAG}-1.$BITBUCKET_BUILD_NUMBER"
+            - COMMIT_ID="$(cat VERSION)"
+            - echo ${COMMIT_ID}
+            - aws configure set aws_access_key_id "${AWS_KEY}"
+            - aws configure set aws_secret_access_key "${AWS_SECRET}"
+            - eval $(aws ecr get-login --no-include-email --region "${REGION}")
+            - docker pull $IMAGE:${BASE_IMAGE_TAG} && docker tag $IMAGE:${IMAGE_TAG} $IMAGE:$VERSION && docker push $IMAGE:$VERSION
+            - docker build --build-arg commit_id=${COMMIT_ID}  --build-arg google_maps_key=${GOOGLE_MAPS_KEY}  -t $IMAGE:${IMAGE_TAG} .
+            - docker push $IMAGE:${IMAGE_TAG}
+            - aws ecs update-service --cluster ${FARGATE_CLUSTER_NAME} --service ${FARGATE_SERVICE_NAME} --region ${REGION} --force-new-deployment
+    release/*:  
+      - step: *security-scan
+      - step:
+          name: image build and deploy to QA Environment
+          size: 2x # Double resources available for this step.
+          deployment: QA
+          trigger: manual
+          services:
+            - docker
+          caches:
+            - pip
+          script:
+            - pip install awscli==1.19.26
+            - apk update && apk add git
+            - IMAGE="${IMAGE_URI}/${IMAGE_NAME}"
+            - VERSION="${BASE_IMAGE_TAG}-1.$BITBUCKET_BUILD_NUMBER"
+            - COMMIT_ID="$(cat VERSION)"
+            - echo ${COMMIT_ID}
+            - aws configure set aws_access_key_id "${AWS_KEY}"
+            - aws configure set aws_secret_access_key "${AWS_SECRET}"
+            - eval $(aws ecr get-login --no-include-email --region "${REGION}")
+            - docker pull $IMAGE:${BASE_IMAGE_TAG} && docker tag $IMAGE:${IMAGE_TAG} $IMAGE:$VERSION && docker push $IMAGE:$VERSION
+            - docker build --build-arg commit_id=${COMMIT_ID}  --build-arg google_maps_key=${GOOGLE_MAPS_KEY}  -t $IMAGE:${IMAGE_TAG} .
+            - docker push $IMAGE:${IMAGE_TAG}
+            - aws ecs update-service --cluster ${FARGATE_CLUSTER_NAME} --service ${FARGATE_SERVICE_NAME} --region ${REGION} --force-new-deployment
+      - step:
+          name: image build and deploy to Staging Environment
+          size: 2x # Double resources available for this step.
+          deployment: Staging
+          trigger: manual
+          services:
+            - docker
+          caches:
+            - pip
+          script:
+            - pip install awscli==1.19.26
+            - apk update && apk add git
+            - IMAGE="${IMAGE_URI}/${IMAGE_NAME}"
+            - VERSION="${BASE_IMAGE_TAG}-1.$BITBUCKET_BUILD_NUMBER"
+            - COMMIT_ID="$(cat VERSION)"
+            - echo ${COMMIT_ID}
+            - aws configure set aws_access_key_id "${AWS_KEY}"
+            - aws configure set aws_secret_access_key "${AWS_SECRET}"
+            - eval $(aws ecr get-login --no-include-email --region "${REGION}")
+            - docker pull $IMAGE:${BASE_IMAGE_TAG} && docker tag $IMAGE:${IMAGE_TAG} $IMAGE:$VERSION && docker push $IMAGE:$VERSION
+            - docker build --build-arg commit_id=${COMMIT_ID}  --build-arg google_maps_key=${GOOGLE_MAPS_KEY}  -t $IMAGE:${IMAGE_TAG} .
+            - docker push $IMAGE:${IMAGE_TAG}
+            - aws ecs update-service --cluster ${FARGATE_CLUSTER_NAME} --service ${FARGATE_SERVICE_NAME} --region ${REGION} --force-new-deployment
+
+      - step:
+          name: image build and deploy to Production Environment
+          size: 2x # Double resources available for this step.
+          deployment: Production
+          trigger: manual
+          services:
+            - docker
+          caches:
+            - pip
+          script:
+            - pip install awscli==1.19.26
+            - apk update && apk add git
+            - IMAGE="${IMAGE_URI}/${IMAGE_NAME}"
+            - VERSION="${IMAGE_TAG}-1.$BITBUCKET_BUILD_NUMBER"
+            - COMMIT_ID="$(cat VERSION)"
+            - aws configure set aws_access_key_id "${AWS_KEY}"
+            - aws configure set aws_secret_access_key "${AWS_SECRET}"
+            - eval $(aws ecr get-login --no-include-email --region "${REGION}")
+            - docker pull $IMAGE:${IMAGE_TAG} && docker tag $IMAGE:${IMAGE_TAG} $IMAGE:$VERSION && docker push $IMAGE:$VERSION
+            - docker build  --build-arg commit_id=${COMMIT_ID} --build-arg google_maps_key=${GOOGLE_MAPS_KEY} -t $IMAGE:${IMAGE_TAG} .
+            - docker push $IMAGE:${IMAGE_TAG}
+            - aws ecs update-service --cluster ${FARGATE_CLUSTER_NAME} --service ${FARGATE_SERVICE_NAME} --region ${REGION} --force-new-deployment

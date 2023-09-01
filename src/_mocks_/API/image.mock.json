@@ -1,0 +1,17 @@
+{
+    "application_code": 200,
+    "data": {
+        "profile": {
+            "id": "80a907b87bbc4e4199adecba06bce8f0",
+            "date": "2022-04-06T22:29:35.897533+00:00"
+        },
+        "images": [
+            {
+                "id": "80a907b87bbc4e4199adecba06bce8f0",
+                "date": "2022-04-06T22:29:35.897533+00:00"
+            }
+        ]
+    },
+    "message": "Image ID Fetched",
+    "error": false
+}

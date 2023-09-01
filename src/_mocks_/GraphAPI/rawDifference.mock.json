@@ -1,0 +1,41 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": {
+            "current_mass": {
+                "weight": null,
+                "bmi": null,
+                "hydration": null,
+                "bone_mass": null,
+                "muscle_mass": null,
+                "fat_mass": null
+            },
+            "current_percentage": {
+                "hydration": null,
+                "bone_mass": null,
+                "muscle_mass": null,
+                "fat_mass": null
+            },
+            "previous_mass": {
+                "weight": null,
+                "bmi": null,
+                "hydration": null,
+                "bone_mass": null,
+                "muscle_mass": null,
+                "fat_mass": null
+            },
+            "previous_percentage": {
+                "hydration": null,
+                "bone_mass": null,
+                "muscle_mass": null,
+                "fat_mass": null
+            },
+            "previous_data_timestamp": null,
+            "last_recorded_timestamp": 1680597206000000000
+        }
+    },
+    "message": "Body Differences Fetched successfully",
+    "error": false
+}

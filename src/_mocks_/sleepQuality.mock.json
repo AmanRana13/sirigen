@@ -1,0 +1,13 @@
+{
+    "sleepScoreAvg": 97,
+    "totalSleepTime": 36120,
+    "interruptions": 1,
+    "sleepLatency": 1320,
+    "timeToGetUp": 0,
+    "summaryCycle": [
+        {
+            "start_time": 1643524680000000000,
+            "end_time": 1643562660000000000
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "pacemaker_user": false,
+        "pacemaker_implementation_date": null,
+        "allergies": "Lactose",
+        "last_physical_examination": "2021-03-15T07:00:00+00:00",
+        "home_medical_devices": "cane, grab bars and shower chair",
+        "home_medical_device_reason": "Unsteady on feet",
+        "home_medical_device_usage_date": "2021-07-02T20:16:00+00:00",
+        "addictions": [
+            {
+                "value": "Alcohol",
+                "data": null
+            },
+            {
+                "value": "Cocaine",
+                "data": "1 year"
+            },
+            {
+                "value": "Tobacco",
+                "data": "3 years"
+            },
+            {
+                "value": "Cannabis",
+                "data": "4 years"
+            }
+        ],
+        "other_exams": [
+            {
+                "value": "Foot Exam",
+                "date": "2020-12-08T08:00:00+00:00"
+            }
+        ],
+        "injuries": [
+            {
+                "value": "Right Knee, Left Elbow",
+                "date": "2018-02-06T08:00:00+00:00"
+            },
+            {
+                "value": "Eye Socket",
+                "date": "2017-01-23T08:00:00+00:00"
+            }
+        ],
+        "vaccines": [
+            {
+                "value": "COVID",
+                "date": "2021-01-04T08:00:00+00:00"
+            },
+            {
+                "value": "Polio",
+                "date": "2020-05-11T07:00:00+00:00"
+            },
+            {
+                "value": "Chicken Pox",
+                "date": "1998-07-09T07:00:00+00:00"
+            }
+        ],
+        "disabilities": [
+            {
+                "value": "Arthritis",
+                "date": "2021-03-16T07:00:00+00:00"
+            }
+        ],
+        "created_date": "2021-07-19T20:25:11.416607+00:00",
+        "last_modified_by": "admin-768d3f43cc594252ab9723ed7b9a2fc5"
+    },
+    "message": "Ok",
+    "error": false
+}

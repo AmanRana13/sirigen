@@ -1,0 +1,18 @@
+{
+    "application_code": 200,
+    "data": {
+        "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+        "account_id": "ee52218a9b8b46d586e9e06a48d126f4",
+        "data": [
+            {
+                "awake": 5.295315682281059,
+                "deep_sleep": 18.73727087576375,
+                "light_sleep": 49.490835030549896,
+                "rem_sleep": 26.476578411405292,
+                "total_time_in_bed": 29460
+            }
+        ]
+    },
+    "message": "Sleep depth fetched successfully",
+    "error": false
+}

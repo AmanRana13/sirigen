@@ -1,0 +1,28 @@
+{
+    "application_code": 200,
+    "data": [
+        {
+            "senior_id": "senior-2334501efc4c46ec9575fcb15b0f7657",
+            "device_type": "watch",
+            "device_install_date": "2023-03-07T08:00:00+00:00",
+            "vendor": "Navigil",
+            "assigned_device_type": "Navigil 580 Watch",
+            "model_number": "580",
+            "device_serial": "1200006669",
+            "device_id": "3706db78576548f88a7939b8f83a851c",
+            "mfg_date": "2023-03-07T08:00:00+00:00",
+            "date_returned": null,
+            "reason_for_return": null,
+            "created_date": "2023-03-07T20:41:29.398583+00:00",
+            "modification_date": "2023-03-07T20:41:29.398583+00:00",
+            "last_modified_by": "careagent-fb2382aacd3545ccb14c9df5dc882963-karyn-brown",
+            "mac_address": null,
+            "height": 154,
+            "timezone": "America/New_York",
+            "weight": 58,
+            "watch_phone_number": "5714760571"
+        }
+    ],
+    "message": "OK",
+    "error": false
+}
